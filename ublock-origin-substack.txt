@@ -1,0 +1,8 @@
+substack.com##.subscribe-dialog
+substack.com##.subscribe-dialog-scroll-modal-scroll-capture
+substack.com##.frontend-components-SubscribePrompt-module__subscribeDialog--2_6UY.frontend-pencraft-FlexBox-module__flex-align-center--21WCV.frontend-pencraft-FlexBox-module__flex-direction-column--2sph3.frontend-pencraft-FlexBox-module__flex--fK-9V
+substack.com##.frontend-components-SubscribePrompt-module__background--2DQPj
+substack.com##.post-end-cta-full
+substack.com##.show-subscribe.subscription-widget
+substack.com##.topbar-content
+substack.com##body:style(cursor: auto !important;)
