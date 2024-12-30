@@ -1,28 +1,29 @@
 ! Block annoying Substack stuff
-substack.com,overcomingbias.com,astralcodexten.com,mindthefuture.info,benlandautaylor.com##.subscribe-dialog
-substack.com,overcomingbias.com,astralcodexten.com,mindthefuture.info,benlandautaylor.com##.subscribe-dialog-scroll-modal-scroll-capture
-substack.com,overcomingbias.com,astralcodexten.com,mindthefuture.info,benlandautaylor.com##[class*=".frontend-components-SubscribePrompt-module__subscribeDialog--"]
-substack.com,overcomingbias.com,astralcodexten.com,mindthefuture.info,benlandautaylor.com##[class*=".frontend-components-SubscribePrompt-module__background--"]
-substack.com,overcomingbias.com,astralcodexten.com,mindthefuture.info,benlandautaylor.com##.post-end-cta-full
-substack.com,overcomingbias.com,astralcodexten.com,mindthefuture.info,benlandautaylor.com##.show-subscribe.subscription-widget
-substack.com,overcomingbias.com,astralcodexten.com,mindthefuture.info,benlandautaylor.com##.topbar-content
-substack.com,overcomingbias.com,astralcodexten.com,mindthefuture.info,benlandautaylor.com##body:style(cursor: auto !important;)
-substack.com,overcomingbias.com,astralcodexten.com,mindthefuture.info,benlandautaylor.com##[class*="_subscribeDialog_"]
-substack.com,overcomingbias.com,astralcodexten.com,mindthefuture.info,benlandautaylor.com##[class*="SubscribePrompt"]
-substack.com,overcomingbias.com,astralcodexten.com,mindthefuture.info,benlandautaylor.com##[class*="_background_"]
-substack.com,overcomingbias.com,astralcodexten.com,mindthefuture.info,benlandautaylor.com##[class*="popoverButtons"]
-substack.com,overcomingbias.com,astralcodexten.com,mindthefuture.info,benlandautaylor.com##.intro-popup-page-0.intro-popup-page
-substack.com,overcomingbias.com,astralcodexten.com,mindthefuture.info,benlandautaylor.com##.default-intro-popup.intro-popup
+substack.com,overcomingbias.com,astralcodexten.com,mindthefuture.info,benlandautaylor.com,news.manifold.markets##.subscribe-dialog
+substack.com,overcomingbias.com,astralcodexten.com,mindthefuture.info,benlandautaylor.com,news.manifold.markets##.subscribe-dialog-scroll-modal-scroll-capture
+substack.com,overcomingbias.com,astralcodexten.com,mindthefuture.info,benlandautaylor.com,news.manifold.markets##[class*=".frontend-components-SubscribePrompt-module__subscribeDialog--"]
+substack.com,overcomingbias.com,astralcodexten.com,mindthefuture.info,benlandautaylor.com,news.manifold.markets##[class*=".frontend-components-SubscribePrompt-module__background--"]
+substack.com,overcomingbias.com,astralcodexten.com,mindthefuture.info,benlandautaylor.com,news.manifold.markets##.post-end-cta-full
+substack.com,overcomingbias.com,astralcodexten.com,mindthefuture.info,benlandautaylor.com,news.manifold.markets##.show-subscribe.subscription-widget
+substack.com,overcomingbias.com,astralcodexten.com,mindthefuture.info,benlandautaylor.com,news.manifold.markets##.topbar-content
+substack.com,overcomingbias.com,astralcodexten.com,mindthefuture.info,benlandautaylor.com,news.manifold.markets##body:style(cursor: auto !important;)
+substack.com,overcomingbias.com,astralcodexten.com,mindthefuture.info,benlandautaylor.com,news.manifold.markets##[class*="_subscribeDialog_"]
+substack.com,overcomingbias.com,astralcodexten.com,mindthefuture.info,benlandautaylor.com,news.manifold.markets##[class*="SubscribePrompt"]
+substack.com,overcomingbias.com,astralcodexten.com,mindthefuture.info,benlandautaylor.com,news.manifold.markets##[class*="_background_"]
+substack.com,overcomingbias.com,astralcodexten.com,mindthefuture.info,benlandautaylor.com,news.manifold.markets##[class*="popoverButtons"]
+substack.com,overcomingbias.com,astralcodexten.com,mindthefuture.info,benlandautaylor.com,news.manifold.markets##[class*="_popover_"]
+substack.com,overcomingbias.com,astralcodexten.com,mindthefuture.info,benlandautaylor.com,news.manifold.markets##.intro-popup-page-0.intro-popup-page
+substack.com,overcomingbias.com,astralcodexten.com,mindthefuture.info,benlandautaylor.com,news.manifold.markets##.default-intro-popup.intro-popup
 
 ! Modified from https://ronitray.xyz/writing/clean-substack/
-substack.com,overcomingbias.com,astralcodexten.com,mindthefuture.info,benlandautaylor.com###nojs-banner
-substack.com,overcomingbias.com,astralcodexten.com,mindthefuture.info,benlandautaylor.com##.subscribe-btn.subscribe-cta.primary.button
-substack.com,overcomingbias.com,astralcodexten.com,mindthefuture.info,benlandautaylor.com##.notification-container.menu-button.button > svg
-substack.com,overcomingbias.com,astralcodexten.com,mindthefuture.info,benlandautaylor.com##.subscribe-footer
-substack.com,overcomingbias.com,astralcodexten.com,mindthefuture.info,benlandautaylor.com##[href^="/subscribe"] > .subscribe-btn.primary.button
-substack.com,overcomingbias.com,astralcodexten.com,mindthefuture.info,benlandautaylor.com##td.icon.post-meta-item:nth-of-type(1)
-substack.com,overcomingbias.com,astralcodexten.com,mindthefuture.info,benlandautaylor.com##div.subscribe-widget:nth-of-type(3)
-substack.com,overcomingbias.com,astralcodexten.com,mindthefuture.info,benlandautaylor.com##div.subscribe-widget > .form > .sideBySideWrap > input
-substack.com,overcomingbias.com,astralcodexten.com,mindthefuture.info,benlandautaylor.com##div.subscribe-widget > .form > .sideBySideWrap
-substack.com,overcomingbias.com,astralcodexten.com,mindthefuture.info,benlandautaylor.com##td.icon.post-meta-item:nth-of-type(2)
-substack.com,overcomingbias.com,astralcodexten.com,mindthefuture.info,benlandautaylor.com##td.icon.post-meta-item:nth-of-type(3)
+substack.com,overcomingbias.com,astralcodexten.com,mindthefuture.info,benlandautaylor.com,news.manifold.markets###nojs-banner
+substack.com,overcomingbias.com,astralcodexten.com,mindthefuture.info,benlandautaylor.com,news.manifold.markets##.subscribe-btn.subscribe-cta.primary.button
+substack.com,overcomingbias.com,astralcodexten.com,mindthefuture.info,benlandautaylor.com,news.manifold.markets##.notification-container.menu-button.button > svg
+substack.com,overcomingbias.com,astralcodexten.com,mindthefuture.info,benlandautaylor.com,news.manifold.markets##.subscribe-footer
+substack.com,overcomingbias.com,astralcodexten.com,mindthefuture.info,benlandautaylor.com,news.manifold.markets##[href^="/subscribe"] > .subscribe-btn.primary.button
+substack.com,overcomingbias.com,astralcodexten.com,mindthefuture.info,benlandautaylor.com,news.manifold.markets##td.icon.post-meta-item:nth-of-type(1)
+substack.com,overcomingbias.com,astralcodexten.com,mindthefuture.info,benlandautaylor.com,news.manifold.markets##div.subscribe-widget:nth-of-type(3)
+substack.com,overcomingbias.com,astralcodexten.com,mindthefuture.info,benlandautaylor.com,news.manifold.markets##div.subscribe-widget > .form > .sideBySideWrap > input
+substack.com,overcomingbias.com,astralcodexten.com,mindthefuture.info,benlandautaylor.com,news.manifold.markets##div.subscribe-widget > .form > .sideBySideWrap
+substack.com,overcomingbias.com,astralcodexten.com,mindthefuture.info,benlandautaylor.com,news.manifold.markets##td.icon.post-meta-item:nth-of-type(2)
+substack.com,overcomingbias.com,astralcodexten.com,mindthefuture.info,benlandautaylor.com,news.manifold.markets##td.icon.post-meta-item:nth-of-type(3)
