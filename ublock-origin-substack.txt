@@ -14,6 +14,7 @@ substack.com,overcomingbias.com,astralcodexten.com,mindthefuture.info,benlandaut
 substack.com,overcomingbias.com,astralcodexten.com,mindthefuture.info,benlandautaylor.com,news.manifold.markets,betonit.ai##[class*="_popover_"]
 substack.com,overcomingbias.com,astralcodexten.com,mindthefuture.info,benlandautaylor.com,news.manifold.markets,betonit.ai##.intro-popup-page-0.intro-popup-page
 substack.com,overcomingbias.com,astralcodexten.com,mindthefuture.info,benlandautaylor.com,news.manifold.markets,betonit.ai##.default-intro-popup.intro-popup
+substack.com,overcomingbias.com,astralcodexten.com,mindthefuture.info,benlandautaylor.com,news.manifold.markets,betonit.ai##[class*="popover-"]
 
 ! Modified from https://ronitray.xyz/writing/clean-substack/
 substack.com,overcomingbias.com,astralcodexten.com,mindthefuture.info,benlandautaylor.com,news.manifold.markets,betonit.ai###nojs-banner
