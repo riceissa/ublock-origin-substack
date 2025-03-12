@@ -12,8 +12,6 @@ substack.com,overcomingbias.com,astralcodexten.com,mindthefuture.info,benlandaut
 substack.com,overcomingbias.com,astralcodexten.com,mindthefuture.info,benlandautaylor.com,news.manifold.markets,betonit.ai,richardhanania.com##[class*="background"]
 substack.com,overcomingbias.com,astralcodexten.com,mindthefuture.info,benlandautaylor.com,news.manifold.markets,betonit.ai,richardhanania.com##[class*="popoverButtons"]
 substack.com,overcomingbias.com,astralcodexten.com,mindthefuture.info,benlandautaylor.com,news.manifold.markets,betonit.ai,richardhanania.com##[class*="_popover_"]
-substack.com,overcomingbias.com,astralcodexten.com,mindthefuture.info,benlandautaylor.com,news.manifold.markets,betonit.ai,richardhanania.com##.intro-popup-page-0.intro-popup-page
-substack.com,overcomingbias.com,astralcodexten.com,mindthefuture.info,benlandautaylor.com,news.manifold.markets,betonit.ai,richardhanania.com##.default-intro-popup.intro-popup
 substack.com,overcomingbias.com,astralcodexten.com,mindthefuture.info,benlandautaylor.com,news.manifold.markets,betonit.ai,richardhanania.com##[class*="popover-"]
 
 ! Modified from https://ronitray.xyz/writing/clean-substack/
@@ -28,3 +26,9 @@ substack.com,overcomingbias.com,astralcodexten.com,mindthefuture.info,benlandaut
 substack.com,overcomingbias.com,astralcodexten.com,mindthefuture.info,benlandautaylor.com,news.manifold.markets,betonit.ai,richardhanania.com##div.subscribe-widget > .form > .sideBySideWrap
 substack.com,overcomingbias.com,astralcodexten.com,mindthefuture.info,benlandautaylor.com,news.manifold.markets,betonit.ai,richardhanania.com##td.icon.post-meta-item:nth-of-type(2)
 substack.com,overcomingbias.com,astralcodexten.com,mindthefuture.info,benlandautaylor.com,news.manifold.markets,betonit.ai,richardhanania.com##td.icon.post-meta-item:nth-of-type(3)
+
+! From https://www.reddit.com/r/uBlockOrigin/comments/1fhvrxt/blockbypass_intro_page_for_substack_sites/lnd6qij/
+substack.com,overcomingbias.com,astralcodexten.com,mindthefuture.info,benlandautaylor.com,news.manifold.markets,betonit.ai,richardhanania.com##.intro-popup
+substack.com,overcomingbias.com,astralcodexten.com,mindthefuture.info,benlandautaylor.com,news.manifold.markets,betonit.ai,richardhanania.com###main:style(visibility: visible !important;)
+substack.com,overcomingbias.com,astralcodexten.com,mindthefuture.info,benlandautaylor.com,news.manifold.markets,betonit.ai,richardhanania.com##html.modal-in, html.show-intro-popup:style(overflow: auto !important;)
+substack.com,overcomingbias.com,astralcodexten.com,mindthefuture.info,benlandautaylor.com,news.manifold.markets,betonit.ai,richardhanania.com##.has-intro-popup.show-intro-popup body:style(height: auto !important; width: auto !important; overflow: auto !important;)
