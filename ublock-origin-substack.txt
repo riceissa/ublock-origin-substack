@@ -7,9 +7,9 @@ substack.com,overcomingbias.com,astralcodexten.com,mindthefuture.info,benlandaut
 substack.com,overcomingbias.com,astralcodexten.com,mindthefuture.info,benlandautaylor.com,news.manifold.markets,betonit.ai##.show-subscribe.subscription-widget
 substack.com,overcomingbias.com,astralcodexten.com,mindthefuture.info,benlandautaylor.com,news.manifold.markets,betonit.ai##.topbar-content
 substack.com,overcomingbias.com,astralcodexten.com,mindthefuture.info,benlandautaylor.com,news.manifold.markets,betonit.ai##body:style(cursor: auto !important;)
-substack.com,overcomingbias.com,astralcodexten.com,mindthefuture.info,benlandautaylor.com,news.manifold.markets,betonit.ai##[class*="_subscribeDialog_"]
+substack.com,overcomingbias.com,astralcodexten.com,mindthefuture.info,benlandautaylor.com,news.manifold.markets,betonit.ai##[class*="subscribeDialog"]
 substack.com,overcomingbias.com,astralcodexten.com,mindthefuture.info,benlandautaylor.com,news.manifold.markets,betonit.ai##[class*="SubscribePrompt"]
-substack.com,overcomingbias.com,astralcodexten.com,mindthefuture.info,benlandautaylor.com,news.manifold.markets,betonit.ai##[class*="_background_"]
+substack.com,overcomingbias.com,astralcodexten.com,mindthefuture.info,benlandautaylor.com,news.manifold.markets,betonit.ai##[class*="background"]
 substack.com,overcomingbias.com,astralcodexten.com,mindthefuture.info,benlandautaylor.com,news.manifold.markets,betonit.ai##[class*="popoverButtons"]
 substack.com,overcomingbias.com,astralcodexten.com,mindthefuture.info,benlandautaylor.com,news.manifold.markets,betonit.ai##[class*="_popover_"]
 substack.com,overcomingbias.com,astralcodexten.com,mindthefuture.info,benlandautaylor.com,news.manifold.markets,betonit.ai##.intro-popup-page-0.intro-popup-page
