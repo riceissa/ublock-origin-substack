@@ -12,6 +12,7 @@ DOMAINS = [
     "betonit.ai",
     "richardhanania.com",
     "computerenhance.com",
+    "tomaspueyo.com",
 ]
 
 RULES = [
@@ -31,8 +32,8 @@ RULES = [
     # screen as you are scrolling.
     '[class*="subscribeDialog"]',
     # And make sure to also block the dark overlay that covers up the whole
-    # page when the subscribe dialog appears.
-    '[class*="background"]',
+    # page whenever the subscribe dialog appears.
+    '[class*="background-"]',
 
     # Get rid of the "navbar" (what, you think it's actually helping me to
     # navigate the site or something?) at the top that shows up every time you
