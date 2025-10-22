@@ -13,6 +13,7 @@ DOMAINS = [
     "richardhanania.com",
     "computerenhance.com",
     "tomaspueyo.com",
+    "rfleury.com",
 ]
 
 RULES = [
