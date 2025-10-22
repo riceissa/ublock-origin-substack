@@ -5,7 +5,7 @@ import datetime
 DOMAINS = [
     "substack.com",
     "overcomingbias.com",
-    "www.astralcodexten.com",
+    "astralcodexten.com",
     "mindthefuture.info",
     "benlandautaylor.com",
     "news.manifold.markets",
@@ -16,8 +16,6 @@ DOMAINS = [
 ]
 
 RULES = [
-    # ".subscribe-dialog",
-
     # Block the "Share" button that appears when selecting text in the article,
     # without blocking the popup that appears when clicking on the
     # table-of-contents hamburger on the left edge.
