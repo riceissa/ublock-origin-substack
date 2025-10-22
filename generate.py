@@ -56,7 +56,7 @@ RULES = [
 ]
 
 if __name__ == "__main__":
-    print("! Block annoying Substack stuff -- generated from script on " + datetime.date.today().strftime("%Y-%m-%d"))
+    print("! Block annoying Substack stuff -- generated from the script at https://github.com/riceissa/ublock-origin-substack on " + datetime.date.today().strftime("%Y-%m-%d"))
     for rule in RULES:
         domains = ",".join(DOMAINS)
         print(domains + "##" + rule)
