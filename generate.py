@@ -33,10 +33,14 @@ RULES = [
     # page whenever the subscribe dialog appears.
     '[class*="background-"]',
 
-    # Get rid of the "navbar" (what, you think it's actually helping me to
-    # navigate the site or something?) at the top that shows up every time you
+    # Make the navbar stay at the top instead of always appearing every time I
     # scroll up.
-    '[class*="topBar-"]:style(display: none !important;)',
+    '[class*="mainMenuContent-"]:style(position: relative !important; top: 0px !important;)',
+    # If you instead want the navbar to completely disappear, you can do it
+    # like this (you can't just "display: none" the mainMenuContent because
+    # then the navbar will disappear from the homepage as well, and then it's
+    # harder to find things like the archives page):
+    # '[class*="topBar-"]:style(display: none !important;)',
 
     # Bring back the default scrollbar (Substack seems to want to hide the
     # scrollbar and make it super thin and light-colored so that I can never
