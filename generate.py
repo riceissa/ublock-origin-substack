@@ -14,6 +14,7 @@ DOMAINS = [
     "computerenhance.com",
     "tomaspueyo.com",
     "rfleury.com",
+    "250bpm.com",
 ]
 
 RULES = [
@@ -33,6 +34,10 @@ RULES = [
     # And make sure to also block the dark overlay that covers up the whole
     # page whenever the subscribe dialog appears.
     '[class*="background-"]',
+
+    # Hide the "Thanks for reading [name of blog]! This post is public so feel
+    # free to share it." message that appears within the post sometimes.
+    '.captioned-button-wrap',
 
     # Make the navbar stay at the top instead of always appearing every time I
     # scroll up.
