@@ -11,18 +11,29 @@
 
     <p><a href="https://github.com/riceissa/ublock-origin-substack">GitHub repo</a></p>
 
-    <label for="domainInput">Enter your domains here, comma-separated:</label>
+    <label for="domainInput">Enter your domains here (i.e., domains of websites
+        which use Substack as their platform but which have a custom domain),
+        comma-separated:</label>
     <textarea id="domainInput" rows="15" placeholder="example.com"></textarea>
 
     <button id="generateBtn">Generate output and copy to clipboard</button>
 
     <p><strong>You can copy-paste the output into the "My filters" tab in
-    uBlock Origin.</strong></p>
+    uBlock Origin.</strong>
+    To find the "My filters" tab, click on the uBlock Origin icon in your
+    browser toolbar, then click on the icon which looks like three gears and
+    which says "Open the dashboard" when you hover over it (if you cannot find
+    the three gears icon, you may need to click the button that says
+    "More&nbsp;&nbsp;&nbsp;v" a few times.), then in the new screen there
+    should be some tabs at the top, one of which is "My filters". You can now paste
+    the output into the text box there, then click "Apply
+    changes". When you reload any of the Substack websites, you should see that the
+    cosmetic annoyances have disappeared.</p>
 
     <p>Clicking the button above will also store the list of domains in your
     browser so that when you return to this page, it will be your personal list
-    of domains instead of the original list.  The list above is comma-separated
-    and ignores whitespace, which is the same format uBlock Origin uses for
+    of domains instead of the original list (try refreshing this page right now).
+    The list above is comma-separated, which is the same format uBlock Origin uses for
     its domain list, so that you can also later copy-paste the list of domains
     from your uBlock Origin filter rules, if for some reason your browser
     has forgotten the list of domains above.</p>
