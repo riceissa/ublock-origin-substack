@@ -1,9 +1,10 @@
 :root {
+    color-scheme: light dark;
     --primary: #2563eb;
     --primary-hover: #1d4ed8;
-    --bg: #f8fafc;
-    --surface: #ffffff;
-    --text: #1e293b;
+    --bg: light-dark(#f8fafc, #191a1c);
+    --surface: light-dark(#ffffff, #000000);
+    --text: light-dark(#1e293b, #e8e6dc);
     --border: #e2e8f0;
 }
 
@@ -21,14 +22,14 @@ h1 {
     font-size: 1.5rem;
     font-weight: 700;
     margin-bottom: 1.5rem;
-    color: #0f172a;
+    color: light-dark(#0f172a, #faf8f0);
 }
 
 label {
     display: block;
     font-weight: 600;
     margin-bottom: 0.5rem;
-    color: #475569;
+    color: light-dark(#475569, #d1cfc5);
 }
 
 textarea {
