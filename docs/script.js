@@ -47,8 +47,8 @@ const RULES = [
     // and also on things like the archive page when you hover over a post.
     '.post-ufi',
     // If you want a more granular approach, you can do things like this instead:
-    // '.post-header > * > .post-ufi',  # Hides the 'likes' at the top of the post
-    // '.post-footer > .post-ufi',      # Hides the 'likes' at the bottom of the post
+    // '.post-header > * > .post-ufi',  // Hides the 'likes' at the top of the post
+    // '.post-footer > .post-ufi',      // Hides the 'likes' at the bottom of the post
 
     // Skip the whole-page intro when first visiting a site. From
     // https://www.reddit.com/r/uBlockOrigin/comments/1fhvrxt/blockbypass_intro_page_for_substack_sites/lnd6qij/
