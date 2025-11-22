@@ -120,4 +120,5 @@ generateBtn.addEventListener('click', () => {
 
     outputWrapper.classList.remove('hidden');
     outputBlock.textContent = finalOutput;
+    outputWrapper.scrollIntoView({ behavior: 'smooth' });
 });
