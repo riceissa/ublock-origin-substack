@@ -3,11 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Substack uBlock Generator</title>
+    <title>uBlock Origin filter rules generator for Substack</title>
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-    <h1>uBlock Origin rule generator for Substack </h1>
+    <h1>uBlock Origin filter rules generator for Substack</h1>
 
     <p><a href="https://github.com/riceissa/ublock-origin-substack">GitHub repo</a></p>
 
@@ -21,10 +21,16 @@
 
     <p>Clicking the button above will also store the list of domains in your
     browser so that when you return to this page, it will be your personal list
-    of domains instead of the default list.</p>
+    of domains instead of the original list.  The list above is comma-separated
+    and ignores whitespace, which is the same format uBlock Origin uses for
+    its domain list, so that you can also later copy-paste the list of domains
+    from your uBlock Origin filter rules, if for some reason your browser
+    has forgotten the list of domains above.</p>
 
     <div id="outputWrapper" class="output-container hidden">
-        <label>Generated Output:</label>
+        <label>Generated output (you don't need to copy what is shown below;
+            clicking the button should have already copied what is shown below
+            into your clipboard):</label>
         <pre id="outputBlock"></pre>
     </div>
 
