@@ -57,6 +57,18 @@ RULES = [
     # especially brittle so it will probably need to be changed.
     '.post.newsletter-post.typography > div > .pc-reset.pc-paddingBottom-32.pc-paddingTop-32.pc-gap-16.pc-flexDirection-column.pc-display-flex.pencraft',
 
+    # Hide the list of users who have 'liked' the post, which appears at the
+    # bottom of the post.
+    '.post.newsletter-post.typography > div > [class*="border-top-detail-themed-"]',
+
+    # Hide the number of 'likes', comments, and 'restacks' everywhere. By
+    # default this shows up at the top of the post, at the bottom of the post,
+    # and also on things like the archive page when you hover over a post.
+    '.post-ufi',
+    # If you want a more granular approach, you can do things like this instead:
+    # '.post-header > * > .post-ufi',  # Hides the 'likes' at the top of the post
+    # '.post-footer > .post-ufi',      # Hides the 'likes' at the bottom of the post
+
     # Skip the whole-page intro when first visiting a site. From
     # https://www.reddit.com/r/uBlockOrigin/comments/1fhvrxt/blockbypass_intro_page_for_substack_sites/lnd6qij/
     ".intro-popup",
