@@ -9,10 +9,16 @@
 <body>
     <h1>uBlock Origin rule generator for Substack </h1>
 
+    <p><a href="https://github.com/riceissa/ublock-origin-substack">GitHub repo</a></p>
+
     <label for="domainInput">Enter your domains here, comma-separated:</label>
     <textarea id="domainInput" rows="15" placeholder="example.com"></textarea>
 
     <button id="generateBtn">Generate output and copy to clipboard</button>
+
+    <p>Clicking the button above will also store the list of domains in your
+    browser so that when you return to this page, it will be your personal list
+    of domains instead of the default list.</p>
 
     <div id="outputWrapper" class="output-container hidden">
         <label>Generated Output:</label>

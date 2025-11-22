@@ -87,7 +87,7 @@ window.addEventListener('DOMContentLoaded', () => {
     if (storedDomains) {
         domainInput.value = storedDomains;
     } else {
-        domainInput.value = DEFAULT_DOMAINS.join(',\n') + "\n";
+        domainInput.value = DEFAULT_DOMAINS.join(',\n') + ",\n";
     }
 });
 
