@@ -105,7 +105,7 @@ generateBtn.addEventListener('click', () => {
     localStorage.setItem(STORAGE_KEY, rawInput);
 
     const today = new Date().toISOString().split('T')[0]; // YYYY-MM-DD
-    const header = `! Block annoying Substack stuff -- generated on ${today}`;
+    const header = `! Block annoying Substack stuff -- generated from https://riceissa.github.io/ublock-origin-substack/ on ${today}`;
     const joinedDomains = domainList.join(',');
     const ruleLines = RULES.map(rule => `${joinedDomains}##${rule}`);
     const finalOutput = [header, ...ruleLines].join('\n');
