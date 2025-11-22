@@ -70,7 +70,7 @@ const DEFAULT_DOMAINS = [
     "computerenhance.com",
     "tomaspueyo.com",
     "rfleury.com",
-    "250bpm.com"
+    "250bpm.com",
 ];
 
 const STORAGE_KEY = 'substackDomains';
@@ -87,13 +87,13 @@ window.addEventListener('DOMContentLoaded', () => {
     if (storedDomains) {
         domainInput.value = storedDomains;
     } else {
-        domainInput.value = DEFAULT_DOMAINS.join('\n');
+        domainInput.value = DEFAULT_DOMAINS.join(',\n') + "\n";
     }
 });
 
 generateBtn.addEventListener('click', () => {
     const rawInput = domainInput.value;
-    const domainList = rawInput.split('\n')
+    const domainList = rawInput.split(',')
         .map(d => d.trim())
         .filter(d => d.length > 0); // Remove empty lines
 
@@ -105,7 +105,7 @@ generateBtn.addEventListener('click', () => {
     localStorage.setItem(STORAGE_KEY, rawInput);
 
     const today = new Date().toISOString().split('T')[0]; // YYYY-MM-DD
-    const header = `! Block annoying Substack stuff -- generated from https://riceissa.github.io/ublock-origin-substack/ on ${today}`;
+    const header = `! Block annoying Substack stuff -- generated on ${today} using https://riceissa.github.io/ublock-origin-substack/`;
     const joinedDomains = domainList.join(',');
     const ruleLines = RULES.map(rule => `${joinedDomains}##${rule}`);
     const finalOutput = [header, ...ruleLines].join('\n');
