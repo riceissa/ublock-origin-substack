@@ -71,6 +71,7 @@ const DEFAULT_DOMAINS = [
     "tomaspueyo.com",
     "rfleury.com",
     "250bpm.com",
+    "registerspill.thorstenball.com",
 ];
 
 const STORAGE_KEY = 'substackDomains';
