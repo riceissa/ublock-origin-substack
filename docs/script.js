@@ -4,6 +4,13 @@ const RULES = [
     // table-of-contents hamburger on the left edge.
     '[class*="popover-"]:not([class*="elevated"])',
 
+    // Block the "Share" button that appears multiple times throughout the
+    // article on certain blogs.
+    'p.button-wrapper:has(span:has-text(/^Share$/))',
+
+    // Block any "Subscribe" buttons, e.g. the one in the top navbar.
+    'button:has-text(/^Subscribe$/)',
+
     // Make the cursor work normally, i.e. make the cursor turn into an I-beam
     // when it is over regular text. (By default Substack forces the cursor to
     // still be a pointy arrow.)
