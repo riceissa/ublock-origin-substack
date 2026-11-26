@@ -43,7 +43,7 @@ const RULES = [
 
     // Block the subscribe box at the end of each post. This one seems
     // especially brittle so it will probably need to be changed.
-    '.post.newsletter-post.typography > div > .pc-reset.pc-paddingBottom-32.pc-paddingTop-32.pc-gap-16.pc-flexDirection-column.pc-display-flex.pencraft',
+    'div.pencraft:has(> div > [data-component-name="SubscribeWidget"])',
 
     // Hide the list of users who have 'liked' the post, which appears at the
     // bottom of the post.
