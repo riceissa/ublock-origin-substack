@@ -41,8 +41,7 @@ const RULES = [
     // tell where I am on the page).
     '* { scrollbar-width: auto !important; scrollbar-color: auto !important; }',
 
-    // Block the subscribe box at the end of each post. This one seems
-    // especially brittle so it will probably need to be changed.
+    // Block the subscribe box at the end of each post.
     'div.pencraft:has(> div > [data-component-name="SubscribeWidget"])',
 
     // Hide the list of users who have 'liked' the post, which appears at the
